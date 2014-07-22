@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>../images/copy.png</file>
+        <file>../images/deletered.png</file>
+        <file>../images/dialog_question.png</file>
+        <file>../images/document_save_as.png</file>
+        <file>../images/edit_paste.png</file>
+        <file>../images/find.png</file>
+        <file>../images/flash_disk.png</file>
+        <file>../images/folder_open3.png</file>
+        <file>../images/fresh_cut_wheatgrass.png</file>
+        <file>../images/get_info.png</file>
+        <file>../images/gnome_edit_delete.png</file>
+        <file>../images/new_edit_find_replace.png</file>
+        <file>../images/new_edit_redo.png</file>
+        <file>../images/new_file.png</file>
+        <file>../images/printer.png</file>
+        <file>../images/save_all.png</file>
+        <file>../images/undo.png</file>
+    </qresource>
+</RCC>
