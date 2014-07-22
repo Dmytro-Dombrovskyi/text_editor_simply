@@ -27,7 +27,9 @@ void MainWindow::on_actionNew_triggered()
 void MainWindow::on_actionQuit_triggered()
 {
     file_changed_ = true;
-    if(file_opened_ && file_changed_)
+    ui->statusBar->showMessage("Quit", 2000);
+
+    if(file_opened_ || file_changed_)
     {
         QMessageBox::StandardButton answer =
                 QMessageBox::question(this, "Quit dialog",
